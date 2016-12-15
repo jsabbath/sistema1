@@ -1,0 +1,147 @@
+#encabezado{
+    width: 1300px;
+    height: 85px;
+    margin: 0 10px 0 10px;
+    /*background: url("../imagenes/encabezados/factura.png");*/
+    max-width: 2048px;
+}
+#cuerpo{
+    width: 600px;
+    height: 750px;
+    position: relative;
+    top: 10px;
+    right: -10px;
+    background: #0080c0;
+    max-width: 2048px;
+}
+
+#fm{
+    width: 500px;
+    height: 160px;
+    background: #808080;
+    border-radius: 0.5em;
+    /*margin: 0;
+    padding: 0;*/
+    -moz-transform: scale(0.95);
+    position: relative;
+    top: 100px;
+    right: -250px;
+}
+
+#fm form{
+    padding: 4em 0 0 0;
+}
+
+
+#fm form label#tit{
+    position: relative;
+    top: -45px;
+    right: -160px;
+    color: #ffffff;
+}
+
+#nf{
+    position: relative;
+    right: -160px;
+}
+
+
+#n1{
+    position: relative;
+    right: -120px;
+    bottom: -60px;
+}
+
+
+#f1{
+    position: relative;
+    right: -310px;
+    /*bottom: -130px;*/
+}
+
+#f1 input#ce1{
+    position: relative;
+    bottom: -20px;
+    left: -200px;
+    
+}
+
+#f1 label#co{
+    position: relative;
+    bottom: -20px;
+    left: -200px;
+}
+
+#b{
+    position: relative;
+    /*bottom: -125px;*/
+    right: -270px;
+}
+
+#b input#b{
+    position: relative;
+    bottom: -40px;
+    left: -120px;
+    width: 180px;
+    height: 34px;
+    padding: 2px 0 0 0em;
+    margin: 0 0 0 12px;
+}
+
+#pie{
+    width: 1330px;
+    height: 100px;
+    margin: 0 10px 0 10px;
+    /*background: #0080c0;*/
+    max-width: 2048px;
+}
+#dia{
+    position: relative;
+    bottom: -20px;
+    right: -20px;
+}
+#mes{
+    position: relative;
+    right: -100px;
+    bottom: -1px;
+}
+#year{
+    position: relative;
+    top: -17px;
+    right: -180px;
+}
+#v1{
+    width: 250px;
+    height: 77px;
+    position: relative;
+    bottom: -100px;
+    /*top: -35px;
+    right: -40px;*/
+    /*left:-23px;*/
+}
+
+#tod{
+    position: relative;
+    right: -140px;
+}
+
+#cons{
+    position: relative;
+    bottom: -45px;
+    left: -260px;
+}
+
+#msj{
+    width: 200px;
+    height: 50px;
+    position: absolute;
+    left: 600px;
+    top: 120px;
+    z-index: 1;
+    font-size: 9pt;
+    color: #ffffff;
+    border-radius: 0.5em;
+    text-align: center;
+    background: #ff0000;
+    visibility: hidden;
+}

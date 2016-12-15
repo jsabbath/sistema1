@@ -1,0 +1,483 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+#encabezado{
+    width: 1330px;
+    height: 80px;
+    max-width: 2048px;
+    background: url("../imagenes/encabezados/altaproveedor.png");
+    margin: 5px 5px 5px 10px;
+}
+
+#cuerpo{
+    width: 1330px;
+    height: 880px;
+    max-width: 2048px;
+    background: #808080;
+    margin: 0px 0px 0px 10px;
+}
+
+#cuerpo #tit{
+    width: 500px;
+    height: 30px;
+    color:#ffffff;
+    max-width: 2048px;
+    position: relative;
+    right: -480px;
+    top:50px;
+}
+
+#cuerpo #datos{
+    width: 1130px;
+    height: 735px;
+    max-width: 2048px;
+    position: relative;
+    right: -120px;
+    top: 78px;
+    background: #808080;
+}
+
+#cuerpo #datos #d1{
+    width: 1130px;
+    height: 75px;
+    max-width: 2048px;
+    position: relative;
+    top: 10px;
+}
+
+#cuerpo #datos #td{
+    width: 200px;
+    height: 30px;
+    max-width: 2048px;
+    position: relative;
+    top: -16px;
+    right: -30px;
+    border: solid #000000 thin;
+    background: #ffffff;
+}
+
+#cuerpo #datos #dp{
+    width: 1130px;
+    height: 250px;
+    max-width: 2048px;
+    position: relative;
+    top: 45px;
+    border: solid #000000 thin;
+}
+
+#cuerpo #datos #dp{
+    width: 1130px;
+    height: 250px;
+    max-width: 2048px;
+    position: relative;
+    top: 45px;
+    border: solid #000000 thin;
+    background:  #094e77;
+}
+
+#cuerpo #datos #dp #f1{
+    width: 460px;
+    position: relative;
+    right: -75px;
+}
+
+#cuerpo #datos #dp #f2{
+    width: 420px;
+    height: 60px;
+    position: relative;
+    top:10px;
+    right: -64px;
+}
+
+#cuerpo #datos #dp #f2 label#lbrs{
+    /*width: 465px;*/
+    /*height: 60px;*/
+    /*position: relative;*/
+    /*top:6px;*/
+    /*right: -45px;*/
+}
+#cuerpo #datos #dp #f2 input#razon{
+    position: relative;
+    right: -35px;
+}
+#sprazon{
+    position: relative;
+    right: -45px;
+}
+
+#cuerpo #datos #dp #f2 label#lbc{
+    position: relative;
+    bottom: -15px;
+}
+#cuerpo #datos #dp #f2 input#comercio{
+    position: relative;
+    bottom: -15px;
+}
+#spcomercio{
+    position: relative;
+    bottom: -15px;
+    right: -10px;
+}
+
+#cuerpo #datos #dp #f3{
+    width: 520px;
+    height: 150px;
+    position: relative;
+    right: -585px;
+    top: -35px;
+}
+
+#cuerpo #datos #dp #f3 label#lbr{
+    position: relative;
+    bottom: -10px;
+    right: -15px;
+}
+#cuerpo #datos #dp #f3 input#rfc{
+    position: relative;
+    bottom: -10px;
+    right: -25px;
+}
+#sprfc{
+    position: relative;
+    bottom: -10px;
+    right: -40px;
+}
+
+#cuerpo #datos #dp #f3 label#lbcu{
+    position: relative;
+    bottom: -45px;
+    left: -290px;
+}
+#cuerpo #datos #dp #f3 input#curp{
+    position: relative;
+    bottom: -45px;
+    left: -290px;
+}
+#spcurp{
+    position: relative;
+    bottom: -25px;
+    right: -200px;
+}
+
+
+#cuerpo #datos #dp #f3 label#lbiv{
+    position: relative;
+    bottom: -65px;
+    left: -65px;
+}
+#cuerpo #datos #dp #f3 input#iva{
+    position: relative;
+    bottom: -65px;
+    left: -55px;
+}
+#spiva{
+    position: relative;
+    bottom: -65px;
+    left: -35px;
+}
+
+
+#cuerpo #datos #dp #f3 label#lbfg{
+    position: relative;
+    bottom: -100px;
+    left: -365px;
+}
+#cuerpo #datos #dp #f3 input#fondo{
+    position: relative;
+    bottom: -85px;
+    right: -165px;
+}
+#spfondo{
+    position: relative;
+    bottom: -85px;
+    right: -192px;
+}
+
+
+#cuerpo #datos #dp #f4{
+    width: 515px;
+    height: 60px;
+    position: relative;
+    right: -36px;
+    top: -95px;
+}
+
+#cuerpo #datos #dp #f4 label#lblm{
+    position: relative;
+}
+#cuerpo #datos #dp #f4 input#linea{
+    position: relative;
+}
+#splinea{
+    
+}
+
+#cuerpo #datos #dp #f4 label#lbcm{
+    position: relative;
+    left: -320px;
+    bottom: -27px;
+}
+#cuerpo #datos #dp #f4 input#clase{
+    position: relative;
+    right: -140px;
+    bottom: -10px;
+}
+#spclase{
+    position: relative;
+    right: -140px;
+    bottom: -10px;
+}
+
+
+#cuerpo #datos #ip{
+    width: 1130px;
+    height: 250px;
+    max-width: 2048px;
+    position: relative;
+    top:95px;
+    border: solid #000000 thin;
+    background:  #094e77;
+}
+
+#cuerpo #datos #tip{
+    width: 200px;
+    height: 30px;
+    max-width: 2048px;
+    position: relative;
+    top: -16px;
+    right: -30px;
+    border: solid #000000 thin;
+    background: #ffffff;
+}
+
+
+#cuerpo #datos #ip #ip1{
+    width: 450px;
+    height: 150px;
+    position: relative;
+    right: -54px;
+}
+
+#cuerpo #datos #ip #ip1 label#lbcll{
+    position: relative;
+}
+#cuerpo #datos #ip #ip1 input#calle{
+    position: relative;
+}
+#spcalle{
+    
+}
+
+
+#cuerpo #datos #ip #ip1 label#lbnmc{
+    position: relative;
+    bottom: -30px;
+    left: -300px;
+}
+#cuerpo #datos #ip #ip1 input#numero{
+    position: relative;
+    bottom: -30px;
+    left: -300px;
+}
+#spnum{
+    position: relative;
+    bottom: -10px;
+    right: -150px;
+}
+
+
+#cuerpo #datos #ip #ip1 label#lbcol{
+    position: relative;
+    bottom: -60px;
+    left: -85px;
+}
+#cuerpo #datos #ip #ip1 input#colonia{
+    position: relative;
+    bottom: -60px;
+    left: -85px;
+}
+#spcol{
+    position: relative;
+    bottom: -60px;
+    left: -85px;
+}
+
+#cuerpo #datos #ip #ip1 label#lbcd{
+    position: relative;
+    bottom: -80px;
+}
+#cuerpo #datos #ip #ip1 input#cd{
+    position: relative;
+    bottom: -80px;
+}
+#spcd{
+    position: relative;
+    bottom: -80px;
+}
+
+#cuerpo #datos #ip #ip2{
+    width: 420px;
+    height: 200px;
+    position: relative;
+    right: -635px;
+    top: -145px;
+}
+
+
+#cuerpo #datos #ip #ip2 label#lbcon{
+    position: relative;
+}
+#cuerpo #datos #ip #ip2 input#contacto{
+    position: relative;
+    right: -25px;
+}
+#spconta{
+    position: relative;
+    right: -25px;
+}
+
+
+
+#cuerpo #datos #ip #ip2 label#lbac{
+    position: relative;
+    bottom: -55px;
+    left: -325px;
+}
+#cuerpo #datos #ip #ip2 input#apcon{
+    position: relative;
+    bottom: -45px;
+    right: -95px;
+}
+#spcon{
+    position: relative;
+    bottom: -45px;
+    right: -95px;
+}
+
+
+#cuerpo #datos #ip #ip2 label#lbtcon{
+    position: relative;
+    bottom: -86px;
+    left: -255px;
+}
+#cuerpo #datos #ip #ip2 input#telefono{
+    position: relative;
+    bottom: -75px;
+    right: -95px;
+}
+#sptel{
+    position: relative;
+    bottom: -75px;
+    right: -95px;
+}
+
+
+
+#cuerpo #datos #ip #ip2 label#lbem{
+    position: relative;
+    bottom: -110px;
+    left: -235px;
+}
+#cuerpo #datos #ip #ip2 input#mailc{
+    position: relative;
+    bottom: -95px;
+    right: -95px;
+}
+#spcmailc{
+    position: relative;
+    bottom: -95px;
+    right: -95px;
+}
+
+
+#cuerpo #datos #boton{
+    width: 165px;
+    height: 50px;
+    position: relative;
+    top: 97px;
+    right: -460px;
+}
+
+#cuerpo #datos #boton input{
+    position: relative;
+    top: 3px;
+    right: -40px;
+    padding: 1em;   
+}
+
+#cuerpo #datos #boton input#ed{
+    position: relative;
+    left: -75px;
+    top: 5px;
+}
+
+#cuerpo #datos #boton input#mod{
+    position: relative;
+    right: -185px;
+    top: -45px;
+}
+#cuerpo #datos #boton input#regprov{
+    position: relative;
+    top: -5px;
+}
+
+
+#cuerpo #datos #d1 #prov{
+    width: 560px;
+    height: 65px;
+    position: relative;
+    background:  #094e77;
+}
+
+#cuerpo #datos #d1 #prov label#lbpr{
+    position: relative;
+}
+
+#cuerpo #datos #d1 #prov input#pr{
+    position: relative;
+}
+
+
+#cuerpo #datos #d1 #prov label#lbsc{
+    position: relative;
+    bottom: -35px;
+    left: -175px;
+}
+
+#cuerpo #datos #d1 #prov input#sucursal{
+    position: relative;
+    bottom: -35px;
+    left: -172px;
+}
+#spsuc{
+    position: relative;
+    bottom: -35px;
+    left: -172px;
+}
+
+#pie{
+    width: 1330px;
+    height: 100px;
+    max-width: 2048px;
+    background: #0054a8;
+    margin: 5px 5px 0 10px;
+}
+
+#msj{
+    width: 500px;
+    height: 20px;
+    position: absolute;
+    left: 325px;
+    z-index: 1;
+    color: #ffffff;
+    text-align: center;
+    background:  #094e77;
+    visibility: visible;
+}
+
+label{
+    color: #ffffff;
+}

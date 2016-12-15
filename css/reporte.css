@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+#encabezado{
+    margin: 0 5px 0 10px;
+    width: 1330px;
+    height: 80px;
+    background: url("../imagenes/encabezados/reportev.png");
+}
+
+#cuerpo{
+    margin: 10px 5px 0 10px;
+    width: 1330px;
+    height: 880px;
+    background: #808080;
+}
+
+#cuerpo #forms{
+    width: 700px;
+    height: 700px;
+    position: relative;
+    right: -350px;
+    top: 23px;
+    background: #094e77;
+}
+
+#cuerpo #forms #p{
+    width: 594px;
+    height: 550px;
+    position: relative;
+    right: -50px;
+    top: 110px;
+}
+#cuerpo #forms #p #tv{
+    width: 150px;
+    position: relative;
+    right: -247px;
+    top: 5px;
+    text-align: center;
+    color: #000000;
+}
+
+#cuerpo #forms #p #tf{
+    width: 150px;
+    position: relative;
+    top: 90px;
+    left: 244px;
+    text-align: center;
+    color: #000000;
+}
+
+#cuerpo #forms #p #pv{
+    width: 557px;
+    height: 200px;
+    position: relative;
+    top: 35px;
+    right: -15px;
+}
+
+#cuerpo #forms #p #fv{
+    width: 557px;
+    height: 180px;
+    position: relative;
+    top: 110px;
+    right: -15px;
+}
+
+#cuerpo #forms #pv form #pv1{
+    width: 130px;
+    position: relative;
+    right: -70px;
+    top: 30px;
+}
+
+#cuerpo #forms #pv #pvf{
+    width: 350px;
+    position: relative;
+    top: 80px;
+    right: -60px;
+}
+
+#cuerpo #forms #p #fv form #or{
+    width: 250px;
+    position: relative;
+    top: 35px;
+    right: -15px;
+}
+
+
+#cuerpo #forms #p #fv form #agr{
+    width: 250px;
+    position: relative;
+    top: 67px;
+    right: -15px;
+}
+
+#cuerpo #forms #p #fv form #ord{
+    width: 250px;
+    position: relative;
+    top: -3px;
+    right: -280px;
+}
+
+#cuerpo #forms #p #fv form #dt{
+    width: 250px;
+    position: relative;
+    top: 30px;
+    right: -276px;
+}
+
+#cuerpo #forms #p #fv form #bg{
+    width: 250px;
+    position: relative;
+    top: 57px;
+    right: -243px;
+}
+
+#cuerpo #forms #p #fv form #bg input{
+    padding: 1em;
+}
+
+#pie{
+    margin: 10px 5px 0px 10px;
+    width: 1330px;
+    height: 100px;
+    background: #808080;
+}

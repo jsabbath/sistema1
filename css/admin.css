@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.todo{
+    width: 360px;
+	margin: 100px auto;
+}
+.todo h1{
+    font-size:25px;
+	color:#676767;
+	font-family: 'Open Sans', sans-serif;
+	font-weight:400;
+	padding-top: 10%;
+	text-align: center;
+    background-image: url("../imagenes/franjaA.jpg");
+    color: #d6d6d6;
+}
+
+.todo form{
+	padding: 6% 0 0 0;
+}
+
+.todo span{
+    text-align: center;
+}
+
+.todo form span a{
+    color: #888;
+	font-family: 'Open Sans', sans-serif;
+    text-decoration: none;
+}
+
+.todo form span a:hover{
+    color: #888;
+	font-family: 'Open Sans', sans-serif;
+    text-decoration: underline;
+}
+
+
+#usuario{
+    position: relative;
+    width: 92%;
+    padding:3%;
+	background:#D3D3D3;
+	margin-bottom: 6%;
+	font-size: 11px;
+	outline: none;
+	border: none;
+	border:1px solid #DED6D6;
+}
+#l1,#l2{
+    padding: 2em;
+    color: #000000;
+}
+
+#pass{
+    position: relative;
+    width: 92%;
+    padding:3%;
+	background:#D3D3D3;
+	margin-bottom: 6%;
+	font-size: 11px;
+	outline: none;
+	border: none;
+	border:1px solid #DED6D6;
+}
+#iniciar{
+    width: 99%;
+	padding: 3%;
+	margin-bottom: 8%;
+	box-shadow: inset 0px 0px 10px #666464;
+	font-size: 20px;
+	border: none;
+	cursor: pointer;
+	font-weight:500;
+	transition: 0.5s;
+}
+
+#iniciar:hover{
+    background: #787878;
+}
+

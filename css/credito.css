@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#encabezado{
+    width: 1330px;
+    height: 72px;
+   /* background: url("../imagenes/encabezados/credito.png");*/
+    margin: 0 10px;
+    max-width: 2048px;
+}
+
+#sd{
+    float: right;
+    margin: 15px 140px;
+}
+
+#contenido{
+    width: 800px;
+    height: 800px;
+    margin: 12px 350px;
+    /*margin: 12px 350px;*/
+    /*background: #8000ff;*/
+    padding-top: 2.5em;
+    max-width: 2048px;
+}
+
+#venta{
+    width:565px;
+    height: 758px;
+    background: #9191ff;
+    margin: 0 150px 0 150px;
+    border-radius: 0.5em;
+}
+
+#venta form fieldset #g1,#g2,#g3,#g4{
+    margin: 0 50px 1px 72px;
+    padding: 1em 4em 1em;
+}
+
+#venta fieldset{
+    border: solid medium;
+    border-radius: 0.5em;
+    /*background: #ffff00;antes era de form*/
+}
+
+#venta fieldset legend{
+    color: rgb(100%, 0%, 0%);
+}
+
+#venta form fieldset #g3 #bt{
+    margin: 0 0px 0px 9px;
+}
+
+#tb{
+    margin: 15px 0px 0 0px;
+}
+
+#tb table,tr,th,td{
+    border: solid medium #000000;
+    border-collapse: collapse;
+}
+
+#tb table tr,th,td{
+    padding: 1em;
+    width: 10em;
+    border-radius: 0.5em;
+}
+
+#ab form{
+    margin: 10px 0 0 0;
+}
+
+#g1a{
+    margin: 4px 25px;
+}
+
+#g2a{
+    margin: 10px 25px;
+    padding: 1em;
+}
+
+#g3a{
+    margin: 10px 25px;
+}
+
+#g4a{
+    margin: 13px 200px;
+    padding: 1em 24px;
+}
+
+#g4a input, #g4 input#bt{
+    border-radius: 0.5em;
+    padding: 0.3em;
+}
+
+#g4a input:hover, #g4 input#bt:hover{
+    border-radius: 0.5em;
+    padding: 0.3em;
+    background: #c0c0c0;
+    color: #004080;
+}
+
+#pie{
+    width: 1330px;
+    height: 100px;
+    background: #dae697;
+    margin: 10px 10px;
+    max-width: 2048px;
+}

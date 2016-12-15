@@ -1,0 +1,106 @@
+body {
+	font: 9pt/16pt Georgia, Times New Roman, Times, serif;
+	color: #010E22;
+	margin: 0px;
+	border: 0px;
+	padding: 0px;
+	text-align: center;
+	background-color: #A3A1AE;
+}
+
+p { 
+	font: 9pt/16pt Georgia, Times New Roman, Times, serif; 
+	margin-top: 0px; 
+	text-align: left;
+	color: #010E22;
+}
+
+a:link { 
+	font-weight: bold; 
+	text-decoration: none; 
+	color: #A8A439;
+}
+	
+a:visited { 
+	font-weight: bold; 
+	text-decoration: none; 
+	color: #6D7134;
+}
+
+a:hover, a:active { 
+	text-decoration: underline; 
+	color: #010E22;
+}
+
+#container { 
+	text-align: left;
+	position: relative;
+	background: #fff url(../imagenes/fail.png) no-repeat top left;
+	margin: 10px auto;
+	border: 10px solid #C7CDD8;
+	padding: 0px;
+	width: 760px; 
+	voice-family: "\"}\"";
+	voice-family: inherit;
+	width: 740px;
+}
+	
+html>body #container {
+	width: 740px;
+}
+
+
+#intro { 
+	margin: 0px;
+}
+	
+#pageHeader { 
+	padding-top: 65px;
+	margin-left: 230px;
+}
+
+#pageHeader h1 { 
+	position: relative;
+	right: -100px;
+	color: #ff0000;
+}
+
+#pageHeader h2 { 
+	margin-left: 0px;
+	margin-bottom: 68px;
+	margin-top: 0px;
+	width: 372px; 
+	height: 33px; 
+}
+	
+
+#preamble {
+		margin: 140px 0px 0px 230px;
+		padding: 0px 10px 0px 10px;
+		width: 450px;
+		border: 1px solid #B2B9C4;
+		border-bottom: 1px solid #F1F2EF;
+		background-color: #EDEFFE;
+}
+	
+ #supportingText {
+		background: #EDEFFE;
+		border: 1px solid #B2B9C4;
+		border-top: 1px solid #F1F2EF;
+		margin-left: 230px;
+		width: 470px;
+		margin-bottom: 40px;
+		padding-bottom: 10px;
+	} 	
+
+h3 { 
+	text-align: left;
+	margin-bottom: 0px; 
+}
+	
+#preamble h3 { 
+	width: 450px;
+	height: 50px;
+	margin-top: 15px;
+}
+

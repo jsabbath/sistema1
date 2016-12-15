@@ -1,0 +1,57 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+#image{
+    width: 685px;
+    height: 785px;
+    background: #aaaaff;
+}
+
+img{
+    padding: 0 5em 4.7em;
+    /*margin: 0 4.5px 4.5px 4.5em;*/
+}
+
+#btn{
+    position: absolute;
+    top: -1px;
+    width: 685px;
+    height: 785px;
+}
+
+#btn div{
+    padding: 3em 5em 3em;
+    /*margin: 0 4.5px 4.5px 4.5em;*/
+}
+
+
+#d6{
+    position: relative;
+    right: -350px;
+}
+
+#d5{
+    position: relative;
+    bottom: -120px;
+}
+
+#d4{
+    position: relative;
+    right: -350px;
+}
+
+#d3{
+    position: relative;
+    bottom: -120px;
+}
+
+#d2{
+    position: relative;
+    right: -350px;
+}
+
+#d1{
+    position: relative;
+    bottom: -120px;
+}

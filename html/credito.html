@@ -1,0 +1,103 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+    <title>Ventas a Credito</title>
+    <link rel="stylesheet" type="text/css" href="../css/credito.css"/>
+</head>
+<body>
+    <div id="encabezado">
+        <div id="sd">
+            <span>Bienvenido: </span><br/>
+            <span>Regresar</span>
+        </div>
+    </div>
+    
+    <div id="contenido">
+        <div id="venta">
+            <form>
+                <fieldset>
+                    <legend>Productos a Credito</legend>
+                    <div id="g1">
+                        <label for="Nf">No Folio:</label>
+                        <input type="text" maxlength="10" size="10" id="Nf" disabled="disabled"/>
+                    </div>
+                    <div id="g2">
+                        <label for="Nc">No Cliente:</label>
+                        <input type="text" maxlength="10" size="10" id="Nc"/>
+                    </div>
+                    <div id="g3">
+                        <label for="c">Nombre de Cliente:</label>
+                        <input type="text" maxlength="10" id="c"/>
+                    </div>
+                    <div id="g4">
+                        <label for="p">Producto:</label>
+                        <input type="text" maxlength="10" id="p"/>
+                        <input type="submit" value="Agregar" name="ag" id="bt"/>
+                    </div>
+                </fieldset>
+            </form>
+            
+            <div id="tb">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Codigo Producto</th>
+                            <th>Decripcion</th>
+                            <th>precio Credito</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>&nbsp;</td>
+                            <td>&nbsp;</td>
+                            <td>&nbsp;</td>
+                        </tr>
+                        <tr>
+                            <td>&nbsp;</td>
+                            <td>&nbsp;</td>
+                            <td>&nbsp;</td>
+                        </tr>
+                        <tr>
+                            <td>&nbsp;</td>
+                            <td>&nbsp;</td>
+                            <td>&nbsp;</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div><!--fin de la tabla-->
+            <div id="ab">
+                <form id="abono">
+                    <fieldset>
+                        <legend>Abono De Compra</legend>
+                        <div id="g1a">
+                            <label for="tot">Total</label>
+                            <input type="text" maxlength="10" size="11" id="tot" disabled="disabled"/>
+                        </div>
+                        <div id="g2a">
+                            <input type="radio" name="abonos" id="r1" value="12"/>
+                            <label>Mes</label><br/>
+                            <input type="radio" name="abonos" id="r2" value="24"/>
+                            <label>Quincena</label><br/>
+                            <input type="radio" name="abonos" id="r2" value="48"/>
+                            <label>Semana</label><br/>
+                        </div>
+                        <div id="g3a">
+                            <label for="tot">Abono:</label>
+                            <input type="text" maxlength="10" size="10" id="tot" disabled="disabled"/>
+                        </div>
+                        <div id="g4a">
+                            <input type="submit" value="Realizar Compra" name="ir"/>
+                        </div>
+                    </fieldset>
+                </form>
+            </div>
+        </div>
+    </div>
+    
+    <div id="pie">
+        <br/><br/><br/>
+        <br/><br/><br/>
+    </div>
+</body>
+</html>

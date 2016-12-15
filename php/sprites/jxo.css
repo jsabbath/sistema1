@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.obj1{
+    background: transparent url("jxo.png") no-repeat;
+    width: 165px;
+    height: 180px;
+    display: block;
+}
+
+.x1{
+    background-position: -76px -47px;
+    position: relative;
+    bottom: -42px;
+    right: -85px;
+}
+
+#txt{
+    width: 180px;
+    height:40px;
+    position: relative;
+    bottom: -175px;
+    right: -10px;
+}
+
+.x2{
+    background-position: -75px -565px;
+    width: 195px;
+    position: relative;
+    right: -420px;
+    top: -135px;
+}
+
+#txt2{
+    width: 180px;
+    height:40px;
+    position: relative;
+    bottom: -185px;
+}
+
+
+.x3{
+    background-position: -418px -0px;
+    height:200px;
+    position: relative;
+    top: -110px;
+    right: -85px;
+}
+
+#txt3{
+    width: 180px;
+    height:40px;
+    position: relative;
+    bottom: -215px;
+}
+
+.x4{
+    background-position: -64px -283px;
+    width: 200px;
+    position: relative;
+    right: -395px;
+    top: -269px;
+}
+
+#txt4{
+    width: 195px;
+    height:40px;
+    position: relative;
+    bottom: -190px;
+}
+
+.x5{
+    background-position: -300px -283px;
+    width: 265px;
+    position: relative;
+    top: -195px;
+    left: -10px;
+}
+
+#txt5{
+    width: 195px;
+    height:40px;
+    position: relative;
+    bottom: -195px;
+    right: -100px;
+}
+
+
+.x6{
+    background-position: -300px -500px;
+    width: 300px;
+    height: 228px;
+    position: relative;
+    top: -420px;
+    right: -295px;
+}
+
+#txt6{
+    width: 195px;
+    height:40px;
+    position: relative;
+    bottom: -245px;
+    right: -115px;
+}
+
+#rec{
+    width: 685px;
+    height: 785px;
+    position: relative;
+    background: #aaaaff;
+}
+
+#rec a {
+    margin: 1em 0;
+    float: left;
+    clear: left;
+}
+#rec a.btn {
+    text-decoration: none;
+    background: #EEE;
+    color: #222;
+    border: 1px outset #CCC;
+    padding: .1em;
+}
+
+#rec a.btn:hover {
+    cursor: default;
+}
+
+#rec a.btn:active {
+    border: 1px inset #000;
+}
+
+#rec input{
+    position: relative;
+    bottom: -15px;
+}

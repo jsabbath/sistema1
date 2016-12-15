@@ -1,0 +1,290 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+#encabezado{
+    width: 1330px;
+    height: 68px;
+    max-width: 2048px;
+    margin: 0 5px 0 10px;
+    background: url("../imagenes/encabezados/altaproducto.png");
+}
+
+#cuerpo{
+    width:1330px;
+    height: 830px;
+    margin: 10px 5px 0 10px;
+    max-width: 2048px;
+    background: #808080;
+}
+
+#cuerpo #imp{
+    width:230px;
+    height: 230px;
+    position: relative;
+    right: -187px;
+    top: 75px;
+    background: #094e77;
+}
+
+#cuerpo #fp{
+    width:680px;
+    height: 690px;
+    position: relative;
+    right: -515px;
+    top: -155px;
+    color:#ffffff;
+}
+
+#cuerpo #fp #tfp{
+    width: 300px;
+    height: 75px;
+    position: relative;
+    top: -25px;
+    right: -204px;
+}
+
+#cuerpo #fp #fp1{
+    position: relative;
+    height: 120px;
+    background: #094e77;
+}
+
+
+#cuerpo #fp #fp1 label#c{
+    position: relative;
+    right: -70px;
+}
+
+#cuerpo #fp #fp1 input#cod{
+    position: relative;
+    right: -70px;
+}
+
+#cuerpo #fp #fp1 label#no{
+    position: relative;
+    bottom: -40px;
+    left: -110px;
+}
+#cuerpo #fp #fp1 input#producto{
+    position: relative;
+    bottom: -40px;
+    left: -110px;
+}
+#spprod{
+    position: relative;
+    bottom: -40px;
+    left: -110px;
+}
+
+
+#cuerpo #fp #fp1 label#ds{
+    position: relative;
+    bottom: -86px;
+    left: -475px;
+}
+#cuerpo #fp #fp1 input#descrip{
+    position: relative;
+    bottom: -70px;
+    right: -125px;
+}
+#spdescr{
+    position: relative;
+    bottom: -70px;
+    right: -125px;
+}
+
+
+
+#cuerpo #fp #fp2{
+    position: relative;
+    height: 210px;
+    bottom: -40px;
+    background: #094e77;
+}
+
+#cuerpo #fp #fp2 label#cg{
+    position: relative;
+    bottom: -20px;
+    right: -20px;
+}
+#cuerpo #fp #fp2 input#categoria{
+    position: relative;
+    bottom: -20px;
+    right: -45px;
+}
+#spcat{
+    position: relative;
+    bottom: -20px;
+    right: -45px;
+}
+
+#cuerpo #fp #fp2 label#ppc{
+    position: relative;
+    bottom: -75px;
+    left: -325px;
+}
+#cuerpo #fp #fp2 input#contado{
+    position: relative;
+    bottom: -75px;
+    left: -330px;
+}
+#spcont{
+    position: relative;
+    bottom: -75px;
+    left: -355px;
+}
+
+
+#cuerpo #fp #fp2 label#lbpac{
+    position: relative;
+    bottom: -110px;
+    right: -20px;
+}
+#cuerpo #fp #fp2 input#credito{
+    position: relative;
+    bottom: -110px;
+    right: -28px;
+}
+#spcred{
+    position: relative;
+    bottom: -110px;
+    right: -30px;
+}
+
+
+#cuerpo #fp #fp2 label#cpn{
+    position: relative;
+    bottom: -160px;
+    left: -320px;
+}
+#cuerpo #fp #fp2 input#cantidad{
+    position: relative;
+    bottom: -160px;
+    left: -300px;
+}
+#spcant{
+    position: relative;
+    bottom: -160px;
+    left: -350px;
+}
+
+
+#cuerpo #fp #fp3{
+    position: relative;
+    bottom: -60px;
+    height: 145px;
+    background: #094e77;
+}
+
+#cuerpo #fp #fp3 label#prov{
+    position: relative;
+    bottom: -60px;
+    right: -52px;
+}
+#cuerpo #fp #fp3 input#proveedor{
+    position: relative;
+    bottom: -60px;
+    right: -52px;
+}
+#spprov{
+    position: relative;
+    bottom: -60px;
+    right: -52px;
+}
+
+#cuerpo #fp #fp3 label#mp{
+    position: relative;
+    bottom: -95px;
+    left: -280px;
+}
+
+#cuerpo #fp #fp3 input#modelo{
+    position: relative;
+    bottom: -95px;
+    left: -280px;
+}
+
+#spmod{
+    position: relative;
+     bottom: -95px;
+    left: -280px;
+}
+
+#cuerpo #fp #fp3 label#cpn{
+    position: relative;
+    right: -65px;
+}
+#cuerpo #fp #fp3 input#color{
+    position: relative;
+    right: -75px;
+}
+#spcolor{
+     position: relative;
+     right: -75px;
+}
+
+
+#cuerpo #fp #enviar{
+    width: 165px;
+    height: 50px;
+    position: relative;
+    bottom: -75px;
+    right: -225px;
+}
+
+#cuerpo #fp #enviar input{
+    position: relative;
+    top: 3px;
+    right: -40px;
+    padding: 1em;   
+}
+
+#cuerpo #fp #enviar input#ed{
+    position: relative;
+    left: -75px;
+    top: 5px;
+}
+
+#cuerpo #fp #enviar input#mod{
+    position: relative;
+    right: -185px;
+    top: -45px;
+}
+#cuerpo #fp #enviar input#regpr{
+    position: relative;
+    top: -5px;
+}
+
+#cuerpo #fl{
+    width: 230px;
+    position: relative;
+    top: -590px;
+    right: -200px;
+}
+
+#pie{
+    width: 1330px;
+    height: 100px;
+    margin: 5px 5px 0px 10px;
+    max-width: 2048px;
+    background: #0054a8;
+}
+
+#msj{
+    width: 500px;
+    height: 20px;
+    position: absolute;
+    bottom: 465px;
+    left: 600px;
+    z-index: 1;
+    color: #ffffff;
+    text-align: center;
+    background: #ff0000;
+    visibility: visible;
+}
+label{
+    color:#ffffff;
+}

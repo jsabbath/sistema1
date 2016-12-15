@@ -1,0 +1,154 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#encabezado{
+    width: 1330px;
+    background: url("../imagenes/encabezados/edoventa.png");
+    height: 80px;
+    margin: 0px 10px;
+    max-width: 2048px;
+}
+
+#cuerpo{
+    width:1330px;
+    height: 820px;
+    background: #3c3c3c;
+    margin: 5px 10px;
+    max-width: 2048px;
+}
+
+#foto{
+    width: 230px;
+    height: 230px;
+    position: relative;
+    right: -90px;
+    bottom: -30px;
+    /*left: 90px;*/
+    /*bottom: 320px;*/
+    background: #ffff80;
+}
+
+#fm1{
+    width: 900px;
+    height: 430px;
+    position: relative;
+    right: -380px;
+    top:-200px;
+    /*left: 90px;*/
+    /*bottom: 320px;*/
+    background: #000000;
+}
+
+#fm1 #tit{
+    width: 250px;
+    height: 20px;
+    position: relative;
+    right: -350px;
+    bottom: -10px;
+    /*left: 90px;*/
+    /*bottom: 320px;*/
+    background: #ff0000;
+}
+
+#fm1 #objetos{
+    width: 880px;
+    height: 380px;
+    position: relative;
+    right: -10px;
+    bottom: -20px;
+    /*left: 90px;*/
+    /*bottom: 320px;*/
+    background: #242424;
+}
+
+#fm1 #objetos form div{
+    margin:0px 10px 0px 30px;
+}
+
+#fm1 #objetos form #o1{
+    position: absolute;
+    left: 50px;
+    bottom: 305px;
+}
+
+#fm1 #objetos form #o2{
+   position: absolute;
+    left: 80px;
+    bottom: 249px;
+}
+
+#fm1 #objetos form #o2 label{
+    padding: 0 0 0 1em;
+    margin: 0 10px 0 0;
+}
+
+#fm1 #objetos form #o3{
+    position: absolute;
+    left: 118px;
+    bottom: 193px;
+}
+#fm1 #objetos form #o3 label{
+    padding: 0 0 0 0em;
+    margin: 0 3px 0 0;
+}
+
+#fm1 #objetos form #o4{
+    position: absolute;
+    left: 145px;
+    bottom: 137px;
+}
+
+#fm1 #objetos form #o4 label{
+    padding: 0 0 0 0em;
+    margin: 0 3px 0 0;
+}
+
+#fm1 #objetos form #o5{
+    position: absolute;
+    left: 460px;
+    bottom: 305px;
+}
+
+#fm1 #objetos form #o6{
+    position: absolute;
+    left: 472px;
+    bottom: 249px;
+}
+#fm1 #objetos form #o6 label{
+    margin: 0 10px 0 0;
+}
+
+#fm1 #objetos form #o7{
+    position: absolute;
+    left: 510px;
+    bottom: 193px;
+}
+#fm1 #objetos form #o7 label{
+    margin: 0 18px 0 0;
+}
+
+#fm1 #objetos form #o8{
+    position: absolute;
+    left: 530px;
+    bottom: 137px;
+}
+
+#fm1 #objetos form #sub{
+    position: absolute;
+    left: 398px;
+    bottom: 50px;
+}
+
+#fm1 #objetos form #sub input{
+    width: 80px;
+    height: 30px;
+}
+
+#pie{
+    width: 1330px;
+    height: 100px;
+    margin: 5px 10px 0 10px;
+    background: #005177;
+    max-width: 2048px;
+}

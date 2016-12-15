@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#encabezado{
+    width: 1330px;
+    height: 80px;
+    max-width: 2048px;
+    margin: 0 10px 0 10px;
+    background: url("../imagenes/encabezados/ventac.png");
+}
+
+#cuepo{
+    width: 1330px;
+    height: 820px;
+    max-width: 2048px;
+    margin: 10px 10px 10px 10px;
+    /*background: #808080;*/
+}
+
+#tit{
+    width: 500px;
+    height: 50px;
+    position: relative;
+    top: 35px;
+    right: -425px;
+    color: #ffffff;
+}
+
+#cuepo #t1{
+    width: 1100px;
+    height: 625px;
+    position: relative;
+    bottom: -80px;
+    right: -135px;
+    background: #0054a8;
+}
+
+#cuepo #t1 table,th,tr,tbody td{
+    border: solid medium #ffffff;
+    border-collapse: collapse;
+    color:#ffffff ;
+}
+
+#t1 table tr,th,td{
+    padding: 1em;
+    width: 10em;
+    border-radius: 0.5em;
+}
+
+#t1 table{
+    position: relative;
+    bottom: -35px;
+}
+
+#pie{
+    width: 1330px;
+    height: 90px;
+    max-width: 2048px;
+    margin: 0px 10px 0px 10px;
+    background: #0054a8;
+}
+
+#rpv{
+    color: #ffffff;
+}
+
+#rpv:hover{
+    color: #000000;
+}
+
+label{
+color: #ffffff;
+}

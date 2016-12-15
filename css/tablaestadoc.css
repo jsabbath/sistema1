@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#encabezado{
+    width: 1330px;
+    height: 80px;
+    max-width: 2048px;
+    margin: 0 10px 0 10px;
+    background: url("../imagenes/encabezados/tedoventa.png");
+}
+
+#cuerpo{
+    width: 1330px;
+    height: 820px;
+    max-width: 2048px;
+    margin: 10px 10px 10px 10px;
+    /*background: #0080c0;*/
+}
+
+#tit{
+    width: 500px;
+    height: 50px;
+    position: relative;
+    top: 35px;
+    right: -425px;
+}
+
+#cuerpo #t1{
+    width: 1100px;
+    height: 625px;
+    position: relative;
+    bottom: -80px;
+    right: -135px;
+    background: #00bfbf;
+}
+
+#cuerpo #t1 table,th,tr,tbody td{
+    border: solid medium #000000;
+    border-collapse: collapse;
+}
+
+#t1 table tr,th,td{
+    padding: 1em;
+    width: 10em;
+    border-radius: 0.5em;
+}
+
+#t1 table{
+    position: relative;
+    bottom: -105px;
+}
+
+#t1 tfoot tr td a .icono{
+    font-size: 15px;
+    line-height: 10px;
+}
+
+#t1 tfoot tr td a .icono.izquierda{
+    margin-right: 8px;
+}
+
+#t1 tfoot tr td a{
+    text-decoration: none;
+}
+
+#t1 tfoot tr td a:hover{
+    color: #ffffff;
+    text-decoration: underline;
+}
+
+#t1 #fmb{
+    width: 325px;
+    position: relative;
+    top: -425px;
+    right: -36px;
+}
+
+#t1 #fmb button{
+    padding: 0.3em;
+}
+
+#pie{
+    width: 1330px;
+    height: 90px;
+    max-width: 2048px;
+    margin: 0px 10px 0px 10px;
+    background: #0080c0;
+}

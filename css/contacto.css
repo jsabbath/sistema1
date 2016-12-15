@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#encabezado{
+    width: 1330px;
+    height: 80px;
+    background: url("../imagenes/encabezados/contacto.png");
+    margin: 0 0 10px 10px;
+}
+
+#contenido{
+    width: 1330px;
+    height: 830px;
+    margin: 0 0 10px 10px;
+    background: #004080;
+}
+
+#contenido #tit{
+    width: 390px;
+    height: 50px;
+    background: #ff0000;
+    position: relative;
+    right: -500px;
+    bottom: -60px;
+}
+
+#contenido #fcont{
+    width: 600px;
+    height: 450px;
+    position: relative;
+    right: -400px;
+    bottom: -90px;
+}
+
+#contenido #fcont .row{
+    position: relative;
+    right: -190px;
+}
+
+#contenido #fcont .r2{
+    position: relative;
+    bottom: -20px;
+}
+#contenido #fcont .r1 input{
+    border-radius: 0.3em;
+}
+
+#contenido #fcont .r2 input{
+    border-radius: 0.3em;
+}
+
+#contenido #fcont .r2 #tel{
+    position: relative;
+    bottom: -28px;
+}
+
+#contenido #fcont .r2 #l2{
+    position: relative;
+    bottom: -28px;
+}
+
+#contenido #fcont .r3{
+    position: relative;
+    bottom: -80px;
+}
+
+#contenido #fcont .r3 textarea#message{
+    width: 400px;
+    border-radius: 0.3em;
+    position: relative;
+    bottom: -10px;
+    left: -75px;
+    resize: none;
+}
+
+#contenido #fcont input#submit_button{
+    padding: 0.3em;
+    position: relative;
+    bottom: -130px;
+    right: -270px;
+}
+
+#pie{
+    width: 1330px;
+    height: 100px;
+    margin: 0 0px 0px 10px;
+    background: #c0c0c0;
+}

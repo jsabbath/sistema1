@@ -1,0 +1,498 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#encabezado{
+    width: 1330px;
+    height: 80px;
+    max-width: 2048px;
+    background: url("../imagenes/Editar-personal.png");
+    margin: 0 5px 5px 10px;
+}
+
+#cuerpo{
+    width: 1330px;
+    height: 880px;
+    max-width: 2048px;
+    /*background:#808080;*/
+    margin: 0px 0px 0px 10px;
+}
+
+#cuerpo #tit{
+    width: 500px;
+    height: 30px;
+    max-width: 2048px;
+    position: relative;
+    right: -480px;
+    top:50px;
+}
+
+#cuerpo #form{
+    width: 1130px;
+    height: 735px;
+    max-width: 2048px;
+    position: relative;
+    right: -120px;
+    top: 85px;
+    /*background: #808080;*/
+}
+
+#cuerpo #form #tnc{
+    width: 325px;
+    height: 30px;
+    max-width: 2048px;
+    position: relative;
+    top:40px;
+    right: -415px;
+}
+
+#cuerpo #form #dp{
+    width: 1130px;
+    height: 150px;
+    max-width: 2048px;
+    position: relative;
+    top: 60px;
+    border: solid #000000 thin;
+    background: #3c3cff;
+}
+
+#cuerpo #form #dp #d1{
+    width: 400px;
+    height: 50px;
+    max-width: 2048px;
+    position: relative;
+    right: -10px;
+}
+
+#cuerpo #form #dp #d1 label#lb{
+    position: relative;
+    left: -190px;
+    bottom: -25px;
+}
+#cuerpo #form #dp #d1 input#nombrep{
+    position: relative;
+    right: -128px;
+    bottom: -4px;
+}
+#spnp{
+    position: relative;
+    right: -128px;
+    bottom: -4px;
+}
+
+
+#cuerpo #form #dp #d1 label#lbc{
+    position: relative;
+    right: -20px;
+}
+#cuerpo #form #dp #d1 input#nc{
+    position: relative;
+    right: -20px;
+    top: 2px;
+}
+
+/*inicia apellidos*/
+#cuerpo #form #dp #d2{
+    width: 430px;
+    height: 50px;
+    max-width: 2048px;
+    position: relative;
+    right: -10px;
+    top: 12px;
+}
+#cuerpo #form #dp #d2 label#lbpa{
+    position: relative;
+    top: -10px;
+}
+#cuerpo #form #dp #d2 input#papp{
+    position: relative;
+    right: -18px;
+    top: -10px;
+}
+#sppap{
+    position: relative;
+    right: -25px;
+    top: -10px;
+}
+
+
+#cuerpo #form #dp #d2 label#lbsa{
+    position: relative;
+}
+#cuerpo #form #dp #d2 input#sapp{
+    position: relative;
+    right: -10px;
+}
+
+#spsap{
+    position: relative;
+    right: -25px;
+}
+
+
+/*inicia rfc*/
+#cuerpo #form #dp #d3{
+    width: 630px;
+    height: 100px;
+    max-width: 2048px;
+    position: relative;
+    right: -500px;
+    top: -100px;
+}
+#cuerpo #form #dp #d3 label#lbrf{
+    position: relative;
+}
+#cuerpo #form #dp #d3 input#rfc{
+    position: relative;
+}
+#sprfc{
+    
+}
+
+
+#cuerpo #form #dp #d3 label#lbem{
+    position: relative;
+}
+#cuerpo #form #dp #d3 input#mailp{
+    position: relative;
+}
+
+#spmailp{
+    
+}
+
+#cuerpo #form #dp #d3 label#lbt{
+    position: relative;
+    left: -555px;
+    bottom: -35px;
+}
+
+#cuerpo #form #dp #d3 input#telefonop{
+    position: relative;
+    right: -65px;
+    bottom: -15px;
+}
+
+#sptelp{
+    position: relative;
+    right: -75px;
+    bottom: -15px;
+}
+
+#cuerpo #form #dp #d3 label#lboc{
+    position: relative;
+    bottom: -50px;
+    left: -275px;
+}
+#cuerpo #form #dp #d3 input#cargo{
+    position: relative;
+    bottom: -50px;
+    left: -265px;
+}
+
+#spcar{
+    position: relative;
+     bottom: -50px;
+    left: -255px;
+}
+
+#cuerpo #form #tdp{
+    width: 200px;
+    height: 30px;
+    max-width: 2048px;
+    position: relative;
+    top: -16px;
+    right: -30px;
+    border: solid #000000 thin;
+    background: #ffffff;
+}
+
+#cuerpo #form #dd{
+    width: 1130px;
+    height: 150px;
+    max-width: 2048px;
+    position: relative;
+    top: 100px;
+    background: #3c3cff;
+    border: solid #000000 thin;
+}
+
+#cuerpo #form #tdd{
+    width: 200px;
+    height: 30px;
+    max-width: 2048px;
+    position: relative;
+    top: -10px;
+    right: -30px;
+    border: solid #000000 thin;
+    background: #ffffff;
+}
+/*formulario datos de domicilio*/
+
+#cuerpo #form #dd #dc1{
+    width: 430px;
+    height: 70px;
+    max-width: 2048px;
+    position: relative;
+    right: -35px;
+}
+#cuerpo #form #dd #dc1 label#lbca{
+    position: relative;
+}
+#cuerpo #form #dd #dc1 input#calle{
+    position: relative;
+}
+
+#spcall{
+     position: relative;
+}
+
+#cuerpo #form #dd #dc1 label#lbnm{
+    position: relative;
+    left: -310px;
+    bottom: -35px;
+}
+#cuerpo #form #dd #dc1 input#numero{
+    position: relative;
+    right: -65px;
+    bottom: -20px;  
+}
+#spnum{
+    position: relative;
+    right: -65px;
+    bottom: -20px;
+}
+
+/*dc2*/
+#cuerpo #form #dd #dc2{
+    width: 430px;
+    height: 130px;
+    max-width: 2048px;
+    position: relative;
+    right: -595px;
+    top: -100px;
+}
+#cuerpo #form #dd #dc2 label#lbco{
+    position: relative;
+}
+#cuerpo #form #dd #dc2 input#colonia{
+    position: relative;
+}
+#spcol{
+    position: relative;
+}
+
+#cuerpo #form #dd #dc2 label#lbcp{
+    position: relative;
+    bottom: -90px;
+    left: -265px;
+}
+#cuerpo #form #dd #dc2 input#cp{
+    position: relative;
+    bottom: -75px;
+    right: -75px;
+}
+#spcp{
+    position: relative;
+    bottom: -75px;
+    right: -75px;
+}
+
+
+#cuerpo #form #dd #dc2 label#lbcd{
+    position: relative;
+    bottom: -20px;
+    left: -265px;
+}
+#cuerpo #form #dd #dc2 input#cd{
+    position: relative;
+    bottom: -10px;
+    right: -72px;
+}
+#spcd{
+    position: relative;
+    bottom: -10px;
+    right: -72px;
+}
+
+
+#cuerpo #form #dc{
+    width: 1130px;
+    height: 150px;
+    max-width: 2048px;
+    position: relative;
+    top: 160px;
+    border: solid #000000 thin;
+    background: #3c3cff;
+}
+
+#cuerpo #form #tdc{
+    width: 200px;
+    height: 30px;
+    max-width: 2048px;
+    position: relative;
+    top: -10px;
+    right: -30px;
+    border: solid #000000 thin;
+    background: #ffffff;
+}
+
+
+/*fomrulario datos de conocido*/
+#cuerpo #form #dc #dcc{
+    width: 430px;
+    height: 100px;
+    max-width: 2048px;
+    position: relative;
+    right: -40px;
+}
+
+#cuerpo #form #dc #dcc label#lbcn{
+    position: relative;
+}
+#cuerpo #form #dc #dcc input#nseg{
+    position: relative;
+}
+#spnseg{
+    
+}
+
+#cuerpo #form #dc #dcc label#lbpacn{
+    position: relative;
+    bottom: -25px;
+    right: -26px;
+}
+#cuerpo #form #dc #dcc input#seguro{
+    position: relative;
+    bottom: -25px;
+    right: -26px;
+}
+#spum{
+    position: relative;
+    bottom: -25px;
+    right: -26px;
+}
+
+#cuerpo #form #dc #dcc label#lbsacn{
+    position: relative;
+    bottom: -45px;
+    right: -45px;
+}
+#cuerpo #form #dc #dcc input#fecha{
+    position: relative;
+    bottom: -45px;
+    right: -45px;
+}
+
+
+
+#cuerpo #form #dc #dcc1{
+    width: 430px;
+    height: 100px;
+    max-width: 2048px;
+    position: relative;
+    right: -595px;
+    top: -100px;
+}
+
+#cuerpo #form #dc #dcc1 label#lbemcn{
+    position: relative;
+    right: -45px;
+}
+#cuerpo #form #dc #dcc1 input#curp{
+    position: relative;
+    bottom: -5px;
+    right: -45px;
+}
+#spcurp{
+    position: relative;
+    bottom: -5px;
+    right: -45px;
+}
+
+#cuerpo #form #dc #dcc1 label#lbtcn{
+    position: relative;
+    bottom: -65px;
+    left: -310px;
+}
+#cuerpo #form #dc #dcc1 input#telef{
+    position: relative;
+    bottom: -15px;
+    right: -85px;
+}
+#sptel{
+    position: relative;
+    bottom: -15px;
+    right: -85px;
+}
+
+
+#cuerpo #form #dc #dcc1 label#lboc{
+    position: relative;
+    bottom: -15px;
+    left:  -275px;
+}
+#cuerpo #form #dc #dcc1 input#contra{
+    position: relative;
+    bottom: -25px;
+    right: -110px;
+}
+#spcontra{
+     position: relative;
+    bottom: -25px;
+    right: -125px;
+}
+
+
+#cuerpo #form #enviar{
+    width: 165px;
+    height: 50px;
+    position: relative;
+    top: 175px;
+    right: -460px;
+}
+
+#cuerpo #form #enviar input{
+    position: relative;
+    top: 3px;
+    right: -40px;
+    padding: 1em;   
+}
+
+#cuerpo #form #enviar input#ed{
+    position: relative;
+    left: -75px;
+    top: 5px;
+}
+
+#cuerpo #form #enviar input#mod{
+    position: relative;
+    right: -185px;
+    top:-45px;
+}
+#cuerpo #form #enviar input#regp{
+    position: relative;
+    top: -5px;
+}
+
+#pie{
+    width: 1330px;
+    height: 100px;
+    max-width: 2048px;
+    background: #808080;
+    margin: 5px 5px 0 10px;
+}
+
+
+#msj{
+    width: 500px;
+    height: 20px;
+    position: absolute;
+    left: 325px;
+    z-index: 1;
+    color: #ffffff;
+    text-align: center;
+    background: #ff0000;
+    visibility: visible;
+}

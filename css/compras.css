@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#encabezado{
+    width: 1330px;
+    background: url("../imagenes/encabezados/miscompras.png");
+    height: 80px;
+    margin: 0px 10px;
+    max-width: 2048px;
+}
+
+#cuerpo{
+    width:1330px;
+    height: 820px;
+    background: #ff7735;
+    margin: 5px 10px;
+    max-width: 2048px;
+}
+
+#catalago{
+    width:1140px;
+    height: 740px;
+    background: #004080;
+    position: relative;
+    right: -104px;
+    bottom: -38px;
+    /*margin: 5px 10px;*/
+    max-width: 2048px;
+}
+
+#tit{
+    width:403px;
+    height: 40px;
+    position: relative;
+    right: -360px;
+    bottom: -28px;
+    max-width: 2048px;
+}
+
+#spr{
+    width:1060px;
+    height: 630px;
+    position: relative;
+    right: -40px;
+    bottom: -38px;
+    max-width: 2048px;
+}
+
+
+#todas{
+    width: 1040px;
+    height: 585px;
+    position: relative;
+    top: 20px;
+    right: -10px;
+}
+
+#spr #f1{
+    width: 620px;
+    position: absolute;
+    top: 135px;
+}
+
+
+#pie{
+    width: 1330px;
+    height: 100px;
+    background: #ff7735;
+    margin: 5px 10px 0 10px;
+}
+
+img{
+     position: relative;
+     right: -160px;
+     padding: 0 5em 4.7em;
+}
+
+#f1 div{
+    padding: 0 5em 4.7em;
+}
+
+
+#in6{
+    position: relative;
+    right: -560px;
+    bottom: -25px;
+}
+#in5{
+    position: relative;
+    right: -200px;
+    bottom: -118px;
+}
+#in4{
+    position: relative;
+    right: -560px;
+    top: -10px;
+}
+#in3{
+    position: relative;
+    right: -200px;
+    bottom: -85px;
+}
+#in2{
+    position: relative;
+    right: -560px;
+    top: -55px;
+}
+#in1{
+    position: relative;
+    right: -200px;
+    bottom: -45px;
+}

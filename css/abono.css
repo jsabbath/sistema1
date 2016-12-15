@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#encabezado{
+    width: 1330px;
+    height: 80px;
+    max-width: 2048px;
+    margin: 0 10px 0 10px;
+    background: url("../imagenes/encabezados/abonar.png");
+}
+
+#cuerpo{
+    width: 1330px;
+    height: 820px;
+    max-width: 2048px;
+    margin: 10px 10px 10px 10px;
+    background: #ff8040;
+}
+
+#cuerpo #contenido{
+    width: 470px;
+    height: 600px;
+    position: relative;
+    bottom: -50px;
+    right: -470px;
+    background: #ff8000;
+}
+
+#cuerpo #contenido form{
+    position: relative;
+    bottom: -60px;
+    left: -15px;
+}
+
+#cuerpo #contenido div,button{
+    position: relative;
+    right: -150px;
+    bottom: -15px;
+}
+
+#cuerpo #contenido div#c2{
+    position: relative;
+    bottom: -55px;
+}
+
+#cuerpo #contenido div#c3{
+    position: relative;
+    right: -155px;
+    bottom: -100px;
+}
+
+#cuerpo #contenido div#c4{
+    position: relative;
+    bottom: -140px;
+    right: -155px;
+}
+
+#cuerpo #contenido div#c5{
+    position: relative;
+    bottom: -185px;
+    right: -155px;
+}
+
+
+#cuerpo #contenido div#c1 input{
+    position: relative;
+    right: -10px;
+}
+
+#cuerpo #contenido div#c2 input{
+    position: relative;
+    right: -15px;
+}
+
+#cuerpo #contenido div#c3 input{
+    position: relative;
+    right: -25px;
+}
+
+#cuerpo #contenido div#c4 input{
+    position: relative;
+    right: -15px;
+}
+
+#cuerpo #contenido div#c5 input{
+    position: relative;
+    right: -15px;
+}
+
+#cuerpo #contenido form button#sub{
+    position: relative;
+    bottom: -230px;
+    right: -217px;
+}
+
+#cuerpo #contenido h1{
+    position: relative;
+    bottom: -25px;
+    right: -160px;
+}
+
+
+#pie{
+    width: 1330px;
+    height: 90px;
+    max-width: 2048px;
+    margin: 0px 10px 0px 10px;
+    background: #ff8040;
+}

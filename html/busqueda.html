@@ -1,0 +1,61 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+    <title>Busqueda</title>
+    <link rel="stylesheet" type="text/css" href="../css/busqueda.css"/>
+</head>
+<body>
+    <div id="encabezado">
+        <br/><br/><br/>
+        <br/><br/><br/>
+    </div>
+    <div id="contenido">
+        <div id="b">
+            
+            <div id="titb">
+                <h2 style="text-align: center;">Busqueda</h2>
+            </div>
+            
+            <form id="formulario" name="formulario">
+                <!--<div id="msj">-->
+                <!--      <h3>Los campos marcados no estan llenados correctamente</h3>-->
+                <!--</div> -->
+                <div id="iden">
+                    <label>Identificador a Buscar: </label>
+                    <input type="text" id="identi" name="identi" size="15" required/>
+                </div>
+                
+                <div id="sel">
+                    <label>Buscar A: </label>
+                    <select id="cmb1" name="tipo">
+                        <option value="">--Seleccione una Opcion--</option>
+                        <option value="cliente">Cliente</option>
+                        <option value="personal">Personal</option>
+                        <option value="proveedor">Proveedor</option>
+                        <option value="articulo">Articulo</option>
+                        <option value="estado">Estado de Venta</option>
+                    </select>
+                </div>
+                
+                <div id="botones">
+                    <button id="bt1" name="busca">Buscar!</button>
+                    <input type="submit" value="Eliminar" id="bt2" name="elimina"/>
+                </div>
+            </form>
+        </div>
+        
+        
+         <iframe name="vista" src="#" width="1310" height="615">
+         </iframe>
+         <!--<div id="fr">
+             <iframe name="vista" src="https://www.google.com" width="1310" height="615">
+             </iframe>
+         </div>-->
+    </div>
+    <div id="pie">
+        <br/><br/><br/>
+        <br/><br/><br/>
+    </div>
+</body>
+</html>

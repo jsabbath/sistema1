@@ -1,0 +1,90 @@
+body{
+ background-color: #ffffff;
+ font-size: 12px;
+ color: #000000;
+ margin-left: auto;
+ margin-right: auto;
+ padding: 0;
+}
+
+#banner{
+background: #eeeeee url(../imagenes/header.jpg);
+height: 211px;
+border-bottom: 1px #000000 solid;
+}
+#title{
+font-size: 30px;
+font-weight: bold;
+text-align: center;
+padding:60px 0 0 0;
+font-family:Georgia;
+color:#013B56;
+}
+
+
+input{
+background-color: #cccccc;
+color: #000000;
+border: 1px #000000 solid;}
+
+#content{
+margin-left: auto;
+margin-right: auto;
+background-color: #eeeeee;
+width: 588px;
+border: 1px #000000 solid;
+}
+#content h1{
+padding-left: 10px;
+text-align: left;
+color: #000;
+display: block;
+margin: 0;
+font-size: 16px;
+font-family:Georgia;
+}
+
+#content p{
+font-size: 14px;
+padding:5px 10px 5px  10px;
+font-family:Times;
+text-align:justify;
+}
+#content a{
+color: #0A6B95;
+text-decoration: none;
+}
+#content a:hover{
+color: #0A6B95;
+text-decoration: underline;
+}
+
+#copyright{
+
+border-top: 1px #000000 solid;
+width: 570px;
+margin: auto;
+padding: 3px;
+text-align: right;
+}
+.lt{
+width: 95%;
+}
+
+#fm{
+    position: relative;
+    right: -80px;
+}
+
+#fm #env{
+    position: relative;
+    top: -110px;
+    right: -310px;
+}
+
+#fm #txar{
+    position: relative;
+    left: -45px;
+    resize: none;
+}
+

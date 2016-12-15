@@ -1,0 +1,75 @@
+#izquierdo{
+    width: 250px;
+    float: left;
+    background: #00ff40;
+    position: relative;
+    top: -880px;
+    margin: 8px 10px;
+    height: 0px;
+}
+
+#cmi{
+    margin: 0 7px;
+    position: relative;
+    top: 40px;
+    right: -2px;
+}
+
+#cmi ul{
+    list-style: none;
+}
+
+#cmi #lat li a{
+    display: block;
+    padding: 10px;
+    background: #c0c0c0;
+    
+}
+
+#cmi #lat li a:hover{
+    color: #ff0000;
+    background: #408080;
+    
+}
+
+#cmi #lat .icono{
+    font-size: 15px;
+    line-height: 10px;
+}
+
+#cmi #lat .icono.izquierda{
+    float: left;
+    margin-right: 15px;
+}
+
+#cmi #lat .icono.derecha{
+    float: right;
+    margin-left: 10px;
+}
+
+#cmi #lat ul{
+    display: none;
+}
+
+#cmi #lat ul li a{
+    background: #ffff80;
+    color:#0080c0;
+}
+
+#cmi ul a{ 
+    text-decoration: none;
+}
+
+#cmi #lat .activado > a{
+    background: #ff8000;
+    color:#ffffff;
+}
+
+#cmi ul#lat > li{
+    margin: 25px 0px 0 0;
+    /*background: #ffff80;*/
+}
+
+#cmi ul#lat li ul{ 
+    /*background: #00ff00;*/
+}

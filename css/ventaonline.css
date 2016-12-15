@@ -1,0 +1,232 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#encabezado{
+    width: 1330px;
+    height: 72px;
+    background: #c0c0c0;;
+    margin: 0 10px;
+    max-width: 2048px;
+}
+#cuerpo{
+    width: 1330px;
+    height: 600px;
+    margin: 10px 10px 5px 10px;
+    background: #408080;;
+    max-width: 2048px;
+}
+
+#datos{
+    width: 1200px;
+    height: 420px;
+    position: relative;
+    right: -300px;
+    top: 15px;
+}
+
+#f1{
+    width: 700px;
+    height: 330px;
+    position: relative;
+    top: 70px;
+    background: #b9b9b9;
+}
+
+#f1 #tit{
+    width: 270px;
+    height: 50px;
+    position: relative;
+    top: 10px;
+    right: -23px;
+    background: #408080;
+}
+
+
+#dv{
+    width: 300px;
+    height: 95px;
+    position: relative;
+    right: -295px;
+    top: -30px;
+    /*background: #00ff00;*/
+}
+
+#dv #fol{
+    width: 300px;
+    position: relative;
+    top: 10px;
+    
+}
+
+#dv #fol input{
+    width: 150px;
+    position: relative;
+    top: 1px;
+    right: -34px;
+}
+
+#dv #fol label{
+    position: relative;
+    right: -24px;
+}
+
+#dv #fec{
+    width: 300px;
+    position: relative;
+    top: 30px;
+}
+
+#dv #fec input{
+    width: 150px;
+    position: relative;
+    top: 1px;
+    right: -89px;
+}
+
+#dv #fec label{
+    position: relative;
+    right: -89px;
+}
+
+#f1 #dacl{
+    width: 600px;
+    height: 193px;
+    position: relative;
+}
+
+#f1 #dacl #rfc{
+    position: relative;
+    top:8px;
+    right: -12px;
+}
+
+#f1 #dacl #rfc label{
+    position: relative;
+    right: -10px;
+    top: 6px;
+    padding: 0 1em 0 0;
+}
+
+#f1 #dacl #nom{
+    position: relative;
+    top:48px;
+    right: -23px;
+}
+
+#f1 #dacl #nom label{
+    padding: 0 0.7em 0 0;
+}
+
+#f1 #dacl #ap{
+    position: relative;
+    top:87px;
+    right: -23px;
+}
+
+#f1 #dacl #ap label{
+    padding: 0 0.3em 0 0;
+}
+
+#f1 #dacl #dir{
+    position: relative;
+    top: -40px;
+    right: -300px;
+}
+
+#f1 #dacl #dir input{
+    position: relative;
+    top: -3px;
+    right: -10px;
+}
+
+#f1 #dacl #tel{
+    position: relative;
+    top: -10px;
+    right: -300px;
+}
+
+#f1 #dacl #tel label{
+    padding: 0 .5em 0 0;
+}
+
+#fp{
+    width: 500px;
+    height: 330px;
+    position: relative;
+    top: -259px;
+    right: -630px;
+    background: #ffff80;
+}
+
+#fp #tfp{
+    width: 200px;
+    height: 25px;
+    position: relative;
+    top: 9px;
+    right: -170px;
+    background: #ff0000;
+}
+
+#fp #tot{
+    padding: 0 0 0 1.8em;
+}
+
+#fp #cant input#ag{
+    padding: 0.3em;
+    border-radius: 0.5em;
+}
+
+#fp #cant input#ag:hover{
+    border-radius: 0.5em;
+    padding: 0.3em;
+    background: #c0c0c0;
+    color: #004080;
+}
+
+#fp form div{
+    margin: 54px 0 40px 23px;
+}
+
+#fp form div#bv{
+    margin: 1px 0 40px 23px;
+    padding: 0 0 0 13em;
+}
+
+#fp form div#bv input{
+    padding: 0.3em;
+    border-radius: 0.5em;
+}
+
+#fp form div#bv input:hover{
+    border-radius: 0.5em;
+    padding: 0.3em;
+    background: #c0c0c0;
+    color: #004080;
+}
+
+#f2{
+    width: 93%;
+    height: 300px;
+    position: relative;
+    top:50px;
+    right: -48px;
+    background: #80ff80;
+}
+
+#pie{
+    width: 1330px;
+    height: 100px;
+    background: #408080;
+    margin: 10px 10px 10 10px;
+    max-width: 2048px;
+}
+
+#bc{
+    width: 100px;
+    height: 20px;
+    position: relative;
+    right: -350px;
+    top: -50px;
+}

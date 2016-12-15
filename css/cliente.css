@@ -1,0 +1,411 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#encabezado{
+    width: 1330px;
+    height: 80px;
+    max-width: 2048px;
+    background: #ff8080;
+    margin: 0 5px 5px 10px;
+}
+
+#cuerpo{
+    width: 1330px;
+    height: 880px;
+    max-width: 2048px;
+    background: #0080ff;
+    margin: 0px 0px 0px 10px;
+}
+
+#cuerpo #tit{
+    width: 500px;
+    height: 30px;
+    max-width: 2048px;
+    position: relative;
+    right: -480px;
+    top:50px;
+    background: #ff0000;
+}
+
+#cuerpo #form{
+    width: 1130px;
+    height: 735px;
+    max-width: 2048px;
+    position: relative;
+    right: -120px;
+    top: 85px;
+    background: #ffff80;
+}
+
+#cuerpo #form #tnc{
+    width: 325px;
+    height: 30px;
+    max-width: 2048px;
+    position: relative;
+    top:40px;
+    right: -415px;
+    background: #ff8040;
+}
+
+#cuerpo #form #dp{
+    width: 1130px;
+    height: 150px;
+    max-width: 2048px;
+    position: relative;
+    top: 60px;
+    border: solid #000000 thin;
+    background: #008000;
+}
+
+#cuerpo #form #dp #d1{
+    width: 400px;
+    height: 50px;
+    max-width: 2048px;
+    position: relative;
+    right: -10px;
+    background: #ffff80;
+}
+
+#cuerpo #form #dp #d1 label#lb{
+    position: relative;
+    top: 30px;
+    left: -210px;
+}
+#cuerpo #form #dp #d1 input#n{
+    position: relative;
+    top: 10px;
+    right: -150px;
+}
+
+#cuerpo #form #dp #d1 label#lbc{
+    position: relative;
+    right: -20px;
+}
+#cuerpo #form #dp #d1 input#nc{
+    position: relative;
+    right: -20px;
+    top: 2px;
+}
+/*inicia apellidos*/
+#cuerpo #form #dp #d2{
+    width: 430px;
+    height: 50px;
+    max-width: 2048px;
+    position: relative;
+    right: -10px;
+    top: 12px;
+    background: #ffff80;
+}
+#cuerpo #form #dp #d2 label#lbpa{
+    position: relative;
+    right: -30px;
+}
+#cuerpo #form #dp #d2 input#pa{
+    position: relative;
+    right: -40px;
+}
+
+#cuerpo #form #dp #d2 label#lbsa{
+    position: relative;
+    top: 26px;
+    left: -270px;
+}
+#cuerpo #form #dp #d2 input#sa{
+    position: relative;
+    top: 8px;
+    right: -150px;
+}
+/*inicia rfc*/
+#cuerpo #form #dp #d3{
+    width: 630px;
+    height: 100px;
+    max-width: 2048px;
+    position: relative;
+    right: -500px;
+    top: -100px;
+    background: #ffff80;
+}
+#cuerpo #form #dp #d3 label#lbrf{
+    position: relative;
+    top: 10px;
+    right: -25px;
+}
+#cuerpo #form #dp #d3 input#rf{
+    position: relative;
+    top: 10px;
+    right: -45px;
+}
+
+#cuerpo #form #dp #d3 label#lbem{
+    position: relative;
+    top: 50px;
+    left: -200px;
+}
+#cuerpo #form #dp #d3 input#e{
+    position: relative;
+    top: 50px;
+    left: -180px;
+}
+
+#cuerpo #form #dp #d3 label#lbt{
+    position: relative;
+    top: 10px;
+    left: -175px;
+}
+#cuerpo #form #dp #d3 input#tel{
+    position: relative;
+    right: -355px;
+    top: -10px;
+}
+
+#cuerpo #form #dp #d3 label#lboc{
+    position: relative;
+    top: 33px;
+    right: -90px;
+}
+#cuerpo #form #dp #d3 input#oc{
+    position: relative;
+    top: 33px;
+    right: -100px;
+}
+
+#cuerpo #form #tdp{
+    width: 200px;
+    height: 30px;
+    max-width: 2048px;
+    position: relative;
+    top: -16px;
+    right: -30px;
+    border: solid #000000 thin;
+    background: #ffffff;
+}
+
+#cuerpo #form #dd{
+    width: 1130px;
+    height: 150px;
+    max-width: 2048px;
+    position: relative;
+    top: 100px;
+    background: #808000;
+}
+
+#cuerpo #form #tdd{
+    width: 200px;
+    height: 30px;
+    max-width: 2048px;
+    position: relative;
+    top: -10px;
+    right: -30px;
+    border: solid #000000 thin;
+    background: #ffffff;
+}
+/*formulario datos de domicilio*/
+
+#cuerpo #form #dd #dc1{
+    width: 430px;
+    height: 70px;
+    max-width: 2048px;
+    position: relative;
+    right: -35px;
+    background: #ffff80;
+}
+#cuerpo #form #dd #dc1 label#lbca{
+    position: relative;
+    top: 8px;
+    right: -25px;
+}
+#cuerpo #form #dd #dc1 input#c{
+    position: relative;
+    top: 10px;
+    right: -45px;
+}
+
+#cuerpo #form #dd #dc1 label#lbnm{
+    position: relative;
+    top: 35px;
+    left: -200px;
+}
+#cuerpo #form #dd #dc1 input#num{
+    position: relative;
+    top: 35px;
+    left: -190px;
+}
+
+/*dc2*/
+#cuerpo #form #dd #dc2{
+    width: 430px;
+    height: 130px;
+    max-width: 2048px;
+    position: relative;
+    right: -595px;
+    top: -100px;
+    background: #ffff80;
+}
+#cuerpo #form #dd #dc2 label#lbco{
+    position: relative;
+    top:10px;
+    right: -10px;
+}
+#cuerpo #form #dd #dc2 input#co{
+    position: relative;
+    top:10px;
+    right: -30px;
+}
+
+#cuerpo #form #dd #dc2 label#lbcp{
+    position: relative;
+    top:50px;
+    left: -190px;
+}
+#cuerpo #form #dd #dc2 input#cp{
+    position: relative;
+    top:30px;
+    right: -90px;
+}
+
+#cuerpo #form #dd #dc2 label#lbcd{
+    position: relative;
+    top:70px;
+    left: -145px;
+}
+#cuerpo #form #dd #dc2 input#cd{
+    position: relative;
+    top:70px;
+    left: -140px;
+}
+
+#cuerpo #form #dc{
+    width: 1130px;
+    height: 150px;
+    max-width: 2048px;
+    position: relative;
+    top: 160px;
+    background: #0000ff;
+}
+
+#cuerpo #form #tdc{
+    width: 200px;
+    height: 30px;
+    max-width: 2048px;
+    position: relative;
+    top: -10px;
+    right: -30px;
+    border: solid #000000 thin;
+    background: #ffffff;
+}
+
+
+/*fomrulario datos de conocido*/
+#cuerpo #form #dc #dcc{
+    width: 430px;
+    height: 100px;
+    max-width: 2048px;
+    position: relative;
+    right: -40px;
+    background: #ffff80;
+}
+
+#cuerpo #form #dc #dcc label#lbcn{
+    position: relative;
+    top: 10px;
+    right: -25px;
+}
+#cuerpo #form #dc #dcc input#ncon{
+    position: relative;
+    top: 10px;
+    right: -65px;
+}
+
+#cuerpo #form #dc #dcc label#lbpacn{
+    position: relative;
+    top: 35px;
+    left: -230px;
+}
+#cuerpo #form #dc #dcc input#panoc{
+    position: relative;
+    top: 15px;
+    right: -145px;
+}
+
+#cuerpo #form #dc #dcc label#lbsacn{
+    position: relative;
+    top: 45px;
+    left: -160px;
+}
+#cuerpo #form #dc #dcc input#sanoc{
+    position: relative;
+    top: 30px;
+    right: -145px;
+}
+
+
+
+#cuerpo #form #dc #dcc1{
+    width: 430px;
+    height: 100px;
+    max-width: 2048px;
+    position: relative;
+    right: -595px;
+    top: -100px;
+    background: #ffff80;
+}
+
+#cuerpo #form #dc #dcc1 label#lbemcn{
+    position: relative;
+    top: 10px;
+    right: -25px;
+    
+}
+#cuerpo #form #dc #dcc1 input#ecn{
+    position: relative;
+    top: 10px;
+    right: -65px;
+}
+
+#cuerpo #form #dc #dcc1 label#lbtcn{
+    position: relative;
+    top: 38px;
+    left: -200px;
+}
+#cuerpo #form #dc #dcc1 input#telcn{
+    position: relative;
+    top: 20px;
+    right: -115px;
+}
+
+#cuerpo #form #dc #dcc1 label#lboc{
+    position: relative;
+    top: 48px;
+    left: -160px;
+}
+#cuerpo #form #dc #dcc1 input#occn{
+    position: relative;
+    top: 50px;
+    left: -140px;
+}
+
+
+#cuerpo #form #enviar{
+    width: 165px;
+    height: 50px;
+    position: relative;
+    top: 175px;
+    right: -460px;
+}
+
+#cuerpo #form #enviar input{
+    position: relative;
+    top: 3px;
+    right: -40px;
+    padding: 1em;   
+}
+
+#pie{
+    width: 1330px;
+    height: 100px;
+    max-width: 2048px;
+    background: #8080c0;
+    margin: 5px 5px 0 10px;
+}

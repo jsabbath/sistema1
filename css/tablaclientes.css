@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#encabezado{
+    width: 1330px;
+    height: 80px;
+    max-width: 2048px;
+    margin: 0 10px 0 10px;
+    background: url("../imagenes/encabezados/tabla_clientes.png");
+}
+
+#cuerpo{
+    width: 1330px;
+    height: 820px;
+    max-width: 2048px;
+    margin: 10px 10px 10px 10px;
+    /*background: #808080;*/
+}
+
+#tit{
+    width: 500px;
+    height: 50px;
+    position: relative;
+    color: #ffffff;
+    top: 35px;
+    right: -425px;
+    /*background: #094e77;*/
+}
+
+#cuerpo #t1{
+    width: 1100px;
+    height: 625px;
+    position: relative;
+    bottom: -80px;
+    right: -135px;
+    background: #0054a8;
+}
+
+#cuerpo #t1 table,th,tr,tbody td{
+    border: solid medium #ffffff;
+    border-collapse: collapse;
+}
+
+#t1 table tr,th,td{
+    padding: 1em;
+    width: 10em;
+    color: #ffffff;
+    border-radius: 0.5em;
+}
+
+#t1 table{
+    position: relative;
+    bottom: -35px;
+}
+
+#t1 tfoot tr td a .icono{
+    font-size: 15px;
+    line-height: 10px;
+}
+
+#t1 tfoot tr td a .icono.izquierda{
+    margin-right: 8px;
+}
+
+#t1 tfoot tr td a{
+    color: #ffffff;
+    text-decoration: none;
+}
+
+#t1 tfoot tr td a:hover{
+    color: #000000;
+    text-decoration: underline;
+}
+
+#pie{
+    width: 1330px;
+    height: 90px;
+    max-width: 2048px;
+    margin: 0px 10px 0px 10px;
+    background: #0054a8;
+}
+
+thead{
+    color: #ffffff;
+}

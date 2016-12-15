@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.obj1{
+    background: transparent url("escritorios.png") no-repeat;
+    width: 165px;
+    height: 180px;
+    display: block;
+}
+
+.es1{
+    background-position: -66px -35px;
+    width: 180px;
+    position: relative;
+    bottom: -50px;
+    right: -65px;
+}
+
+.es2{
+    background-position: -440px -47px;
+    width: 180px;
+    position: relative;
+    right: -420px;
+    top: -135px;
+}
+
+.es3{
+    background-position: -80px -290px;
+    width: 180px;
+    position: relative;
+    top: -10px;
+    right: -65px;
+}
+
+.es4{
+    background-position: -400px -290px;
+    width: 225px;
+    position: relative;
+    right: -360px;
+    top: -215px;
+}
+
+.es5{
+    background-position: -255px -525px;
+    width: 285px;
+    position: relative;
+    top: -175px;
+    right: -230px;
+}
+
+#txt{
+    width: 180px;
+    height:40px;
+    position: relative;
+    bottom: -190px;
+}
+
+#txt2{
+    width: 180px;
+    height:40px;
+    position: relative;
+    bottom: -197px;
+    left: -12px;
+}
+
+#txt3{
+    width: 180px;
+    height:40px;
+    position: relative;
+    bottom: -150px;
+}
+
+#txt4{
+    width: 180px;
+    height:40px;
+    position: relative;
+    bottom: -185px;
+    right: -47px;
+}
+
+
+#txt5{
+    width: 180px;
+    height:40px;
+    position: relative;
+    bottom: -185px;
+    left: -10px;
+}
+
+#rec{
+    width: 685px;
+    height: 785px;
+    position: relative;
+    background: #aaaaff;
+}
+
+
+#rec a {
+    margin: 1em 0;
+    float: left;
+    clear: left;
+}
+#rec a.btn {
+    text-decoration: none;
+    background: #EEE;
+    color: #222;
+    border: 1px outset #CCC;
+    padding: .1em;
+}
+
+#rec a.btn:hover {
+    cursor: default;
+}
+
+#rec a.btn:active {
+    border: 1px inset #000;
+}
+
+#rec input{
+    position: relative;
+    bottom: -15px;
+}

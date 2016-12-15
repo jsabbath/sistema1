@@ -1,0 +1,227 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#encabezado{
+    width: 1330px;
+    background: url("../imagenes/encabezados/configuracion.png");
+    height: 80px;
+    margin: 0px 10px;
+    max-width: 2048px;
+}
+
+#cuerpo{
+    width:1330px;
+    height: 820px;
+    background: #4d4d4d;
+    margin: 5px 10px;
+    max-width: 2048px;
+}
+
+#foto{
+    width: 230px;
+    height: 230px;
+    position: relative;
+    right: -90px;
+    bottom: -30px;
+    background: #ffff80;
+}
+
+#fm1{
+    width: 900px;
+    height: 430px;
+    position: relative;
+    right: -380px;
+    top:-200px;
+    background: #80ff00;
+}
+
+#fm1 #tit{
+    width: 250px;
+    height: 20px;
+    position: relative;
+    right: -350px;
+    bottom: -10px;
+}
+
+#fm1 #objetos{
+    width: 880px;
+    height: 380px;
+    position: relative;
+    right: -10px;
+    bottom: -20px;
+    background: #0080ff;
+}
+
+#fm1 #objetos form div{
+    margin:0px 10px 0px 30px;
+}
+
+#fm1 #objetos form #o1{
+    position: absolute;
+    left: 50px;
+    bottom: 305px;
+}
+
+#fm1 #objetos form #o2{
+   position: absolute;
+    left: 50px;
+    bottom: 249px;
+}
+
+#fm1 #objetos form #o2 label{
+    padding: 0 0 0 1em;
+    margin: 0 10px 0 0;
+}
+
+#fm1 #objetos form #o3{
+    position: absolute;
+    left: 50px;
+    bottom: 193px;
+}
+#fm1 #objetos form #o3 label{
+    padding: 0 0 0 0em;
+    margin: 0 3px 0 0;
+}
+
+#fm1 #objetos form #o4{
+    position: absolute;
+    left: 50px;
+    bottom: 137px;
+}
+
+#fm1 #objetos form #o4 label{
+    padding: 0 0 0 0em;
+    margin: 0 3px 0 0;
+}
+
+#fm1 #objetos form #o5{
+    position: absolute;
+    left: 460px;
+    bottom: 305px;
+}
+
+#fm1 #objetos form #o6{
+    position: absolute;
+    left: 460px;
+    bottom: 249px;
+}
+#fm1 #objetos form #o6 label{
+    margin: 0 10px 0 0;
+}
+
+#fm1 #objetos form #o7{
+    position: absolute;
+    left: 460px;
+    bottom: 193px;
+}
+#fm1 #objetos form #o7 label{
+    margin: 0 18px 0 0;
+}
+
+#fm1 #objetos form #o8{
+    position: absolute;
+    left: 460px;
+    bottom: 137px;
+}
+
+#fm1 #objetos form #sub{
+    position: absolute;
+    left: 325px;
+    bottom: 50px;
+}
+
+#fm1 #objetos form #sub input{
+    width: 80px;
+    height: 30px;
+}
+
+#fm1 #objetos form #sub input#bed{
+    margin: 0 17px 0 0px;
+}
+
+#bsel input#sel{
+    width: 128px;
+    height: 27px;
+    position: relative;
+    top:-380px;
+    right: -129px;
+}
+
+#contra{
+    width: 896px;
+    height: 269px;
+    position: relative;
+    top:-180px;
+    right: -380px;
+    background: #80ff00;
+}
+
+#contra #fc{
+    width: 860px;
+    height: 200px;
+    position: relative;
+    bottom: -34px;
+    right: -16px;
+    background: #0080c0;
+}
+
+#contra #fc form div{
+    margin: 0 0 35px 38px;
+}
+
+#contra #fc form div#fc1{
+    padding: 1em 0 0 0;
+}
+
+#contra #fc form div#btcont{
+    position: absolute;
+    left: 325px;
+    bottom: -19px;
+}
+
+#contra #fc form div#btcont input{
+     width: 80px;
+    height: 30px;
+}
+
+#contra #fc form div#btcont input#ced{
+    margin: 0 17px 0 0;
+}
+
+#contra #fc form div#fc2 label{
+    padding: 0em 0em 0 2.6em;
+}
+
+#contra #fc form div#fc1 label{
+    padding: 0em 0em 0 2.6em;
+}
+
+#contra #tc{
+    width: 250px;
+    height: 20px;
+    position: relative;
+    bottom: -13px;
+    right: -310px;
+}
+
+#pie{
+    height: 100px;
+    width: 1330px;
+    background: #9fff40;
+    margin: 5px 10px;
+    max-width: 2048px;
+}
+
+
+#msj{
+    width: 500px;
+    height: 20px;
+    position: absolute;
+    left: 220px;
+    z-index: 1;
+    color: #ffffff;
+    text-align: center;
+    background: #ff0000;
+    visibility: visible;
+}

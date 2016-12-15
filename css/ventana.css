@@ -1,0 +1,62 @@
+ #ventana{
+  width: 450px;
+  height: 100px;
+  position: absolute;
+  left: 130px;
+  background: #b2b2b2;
+  visibility: hidden;
+}
+
+#tit{
+  width: 450px;
+  height: 25px;
+  position: relative;
+  top: -19px;
+  background: #5151ff;
+  text-align: left;
+  color: #ffffff;
+}
+
+#icon{
+    width: 45px;
+    height: 45px;
+    position: relative;
+    top: -15px;
+    right: -10px;
+    background: #80ff80;
+}
+
+#txt{
+    width: 370px;
+    height: 18px;
+    position: relative;
+    top: -75px;
+    background: #80ff80;
+    text-align: center;
+    color: #000;
+}
+
+#opc{
+    width: 400px;
+    height: 25px;
+    position: relative;
+    top: -75px;
+    right: -10px;
+}
+
+#can{
+    position: relative;
+    right: -205px;
+}
+
+#no{
+    width: 65px;
+    position: relative;
+    right: -140px;
+}
+
+#si{
+    width: 65px;
+    position: relative;
+    right: -75px;
+}

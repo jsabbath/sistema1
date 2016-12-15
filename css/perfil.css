@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#encabezado{
+    width: 1330px;
+    background: url("../imagenes/encabezados/miperfil.png");
+    margin: 0 10px;
+    height: 80px;
+    max-width: 2048px;
+}
+#pie{
+    clear: left;
+    background: #006b9f;
+    margin: 5px 10px;
+    height: 100px;
+    width: 1330px;
+    max-width: 2048px;
+}
+#contenido{
+    width:1213px;
+    margin: 12px 10px;
+    margin-left: 127px;
+    height: 820px;
+    background: #ffff80;
+    max-width: 2048px;
+}
+
+#izquierdo{
+    width: 110px;
+    float: left;
+    background: #006b9f;
+    margin: 12px 10px;
+    margin-right: 17px;
+    height: 820px;
+}
+
+/*Codigo para modificar menu*/
+#menu{
+    margin:25px 25px 0 5px;
+}
+
+#menu ul li{
+    display: block;
+    list-style: none;
+    /*background: #408080;*/
+    margin: 49px 0 0 0;
+    /*padding-left: 3em;*/
+    width: 100px;
+    height: 100px;
+}
+
+#izquierdo #menu .icono{
+    font-size: 100px;
+    /*line-height: 10px;*/
+}
+
+#menu ul li a{
+    text-decoration: none;
+}
+
+iframe#ifr{
+    position: relative;
+    bottom: -12px;
+    width: 1208px;
+    height:820px;
+    left: -10px;
+    background: #006b9f;
+    border: none;
+    display: block;
+}
